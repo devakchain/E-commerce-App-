@@ -62,17 +62,25 @@ Includes user authentication, dynamic product search, cart system, and responsiv
 
 ## 🧪 How to Run Locally
 
-# Start the Frontend
+### ▶️ Start the Frontend
+
+```bash
 cd frontend
 npm install
-npm run dev
+npm run start
 
-# Start the Backend
+### ▶️ Start the backend
+
+```bash
 cd backend
 npm install
-npm run dev
+num run dev
 
-## Add Environment Variables
-JWTSECRET=cartwish_secret
-DATABASE=mongodb+srv://shmoelyitzhak:ePuKbhk2f2lU3n4N@cluster0.hnc0cyv.mongodb.net/cartwish
+### 🔐 Add Environment Variables
+
+Create a `.env` file inside the `/server` directory with the following content:
+
+```env
+JWTSECRET=you secret ....
+DATABASE= your data base here....
 PORT=3000
