@@ -9,7 +9,7 @@ Includes user authentication, dynamic product search, cart system, and responsiv
 🔗 [Frontend (Netlify)](https://your-frontend-url.netlify.app)  
 🔗 [Backend API (Render)](https://shop-backend-koyj.onrender.com)
 
-![Homepage Screenshot](./screenshots/homepage.png)
+![Homepage Screenshot](./screenshots/shop.png)
 
 ---
 
@@ -33,6 +33,13 @@ Includes user authentication, dynamic product search, cart system, and responsiv
 - Persistent cart state with context and localStorage
 - Modular React components and clean folder structure
 - Environment-based configuration for deployment
+- ---
+
+- 📚 What I Learned
+	•	Building secure and scalable authentication with JWT
+	•	Connecting front and back ends using RESTful APIs
+	•	Managing state effectively in React (Context + LocalStorage)
+	•	Deploying full-stack applications to the cloud (CI/CD)
 
 ---
 
@@ -44,7 +51,28 @@ Includes user authentication, dynamic product search, cart system, and responsiv
 **Authentication:** JWT, bcrypt  
 **Deployment:** Render (Server), Netlify (Client)
 
+🚀 Future Enhancements
+	•	🧑‍💼 Admin dashboard to manage products and orders
+	•	💳 Stripe/PayPal integration for payments
+	•	⭐ Product ratings, reviews, and wishlist
+	•	🧭 SEO improvements and accessibility (a11y)
+
+⸻
 ---
 
 ## 🧪 How to Run Locally
 
+# Start the Frontend
+cd frontend
+npm install
+npm run dev
+
+# Start the Backend
+cd backend
+npm install
+npm run dev
+
+## Add Environment Variables
+JWTSECRET=cartwish_secret
+DATABASE=mongodb+srv://shmoelyitzhak:ePuKbhk2f2lU3n4N@cluster0.hnc0cyv.mongodb.net/cartwish
+PORT=3000
