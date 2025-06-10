@@ -18,7 +18,7 @@ A full-featured E-commerce web app built with React, Node.js, MongoDB, and Expre
 - Responsive mobile-first design
 - Full deployment on **Render** (backend) and **Netlify/Vercel** (frontend)
 
-## 🧠 What I Learned
+## 🧠 What I implemented in this app
 - Complete MERN stack integration
 - Authentication using JWT & Express
 - Search and dynamic suggestions with API
