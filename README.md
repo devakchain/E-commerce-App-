@@ -1,47 +1,50 @@
-See Live Web
-https://shopecoomerce.netlify.app/
+# 🛒 E-Commerce Full Stack Application (MERN)
 
- E-commerce App 
+A production-ready E-commerce platform built using the MERN stack (MongoDB, Express, React, Node.js).  
+Includes user authentication, dynamic product search, cart system, and responsive UI.
 
-```markdown
-# 🛒 E-Commerce Full Stack Application
+---
 
-A full-featured E-commerce web app built with React, Node.js, MongoDB, and Express. Includes product listing, search, authentication, and a shopping cart.
+## 🌐 Live Demo  
+🔗 [Frontend (Netlify)](https://your-frontend-url.netlify.app)  
+🔗 [Backend API (Render)](https://shop-backend-koyj.onrender.com)
 
-## 🚀 Features
-- Product listing with search and filters
-- Auto-suggestions in search
-- Shopping cart with quantity & removal
-- User authentication (JWT-based login/signup/logout)
-- Order management for logged-in users
-- React Router navigation
-- Responsive mobile-first design
-- Full deployment on **Render** (backend) and **Netlify/Vercel** (frontend)
+![Homepage Screenshot](./screenshots/homepage.png)
 
-## 🧠 What I implemented in this app
-- Complete MERN stack integration
-- Authentication using JWT & Express
-- Search and dynamic suggestions with API
-- Cart logic and persistent state
-- Advanced React hooks and context usage
-- Deployment and production optimization
+---
 
-## 🛠 Tech Stack
-- React + React Router
-- Node.js + Express
-- MongoDB (Cloud)
-- JWT for Auth
-- CSS / Styled Components
-- Render + Netlify
+## ✨ Features
 
-## 🧪 How to Run (Dev)
-**Frontend:**
-```bash
-cd client
-npm install
-npm start
+- 🔍 Product listing with category filters & search suggestions
+- 🛒 Shopping cart with quantity update and item removal
+- 🔐 User authentication (Signup / Login / Logout) with JWT
+- 📦 Order management for authenticated users
+- 🔄 Navigation using React Router
+- 📱 Fully responsive design (mobile-first)
+- 🚀 Deployment with **Render** (backend) & **Netlify** (frontend)
 
-Backend:
-cd server
-npm install
-npm run dev
+---
+
+## 🧠 What I Implemented
+
+- Full-stack integration using the MERN stack
+- Authentication flow with JWT & HTTP-only cookies
+- Dynamic search with real-time suggestions from API
+- Persistent cart state with context and localStorage
+- Modular React components and clean folder structure
+- Environment-based configuration for deployment
+
+---
+
+## 🧱 Tech Stack
+
+**Frontend:** React, React Router, Context API, Styled Components  
+**Backend:** Node.js, Express.js  
+**Database:** MongoDB Atlas  
+**Authentication:** JWT, bcrypt  
+**Deployment:** Render (Server), Netlify (Client)
+
+---
+
+## 🧪 How to Run Locally
+
