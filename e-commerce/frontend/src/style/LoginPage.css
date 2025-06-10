@@ -1,0 +1,88 @@
+.form_page {
+  justify-content: center;
+  height: 100vh;
+}
+
+.auth_form {
+  width: 40%;
+  height: 500px;
+  padding: 32px 48px;
+  margin-top: 32px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.auth_form h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 800;
+  text-align: center;
+  color: teal;
+  width: 100%;
+  text-align: start;
+}
+
+.form_inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form_inputs label {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  /* margin-bottom: 3px; */
+}
+
+.form_text_input {
+  width: 100%;
+  height: 35px;
+  padding: 0 8px;
+  font-size: 14px;
+  font-weight: 400;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-top: 2px;
+}
+
+.form_submit {
+  height: 40px;
+  width: 100%;
+  margin: 25px 0 10px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form_submit:hover {
+  background-color: rgb(4, 139, 139);
+}
+
+.form_error {
+  color: red;
+}
+
+@media (max-width: 480px) {
+  .form_page {
+    height: 80vh;
+  }
+  .auth_form {
+    min-width: 95%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .form_page {
+    height: 80vh;
+  }
+  .auth_form {
+    min-width: 65%;
+  }
+}
