@@ -6,8 +6,8 @@ Includes user authentication, dynamic product search, cart system, and responsiv
 ---
 
 ## 🌐 Live Demo  
-🔗 [Frontend (Netlify)](https://your-frontend-url.netlify.app)  
-🔗 [Backend API (Render)](https://shop-backend-koyj.onrender.com)
+🔗 [Frontend (Netlify)](https://shopecoomerce.netlify.app/)  
+🔗 [Backend API (Render)](https://shop-backend-koyj.onrender.com/api/products)
 
 ![Homepage Screenshot](./screenshots/shop.png)
 
