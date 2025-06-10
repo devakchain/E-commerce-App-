@@ -1,7 +1,7 @@
 See Live Web
 https://shopecoomerce.netlify.app/
 
-## ✅ 3. **E-commerce App (Advanced Project)**
+ E-commerce App 
 
 ```markdown
 # 🛒 E-Commerce Full Stack Application
