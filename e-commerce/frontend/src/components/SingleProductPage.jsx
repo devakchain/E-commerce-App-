@@ -6,6 +6,7 @@ import useData from "../hooks/useDate";
 import Loader from "../Common/Loader";
 import { cartContext } from "../context/cartCotext";
 import { userContext } from "../context/userContext";
+import config from "../config.json";
 
 function SingleProductPage() {
   const [selectedImage, setSelectedImage] = useState(0);
@@ -26,7 +27,7 @@ function SingleProductPage() {
               {product.images.map((image, index) => {
                 return (
                   <img
-                    src={`http://localhost:3000/products/${image}`}
+                    src={`${config.backendUrl}/products/${image}`}
                     alt={product.title}
                     key={index}
                     onClick={() => {
@@ -38,7 +39,7 @@ function SingleProductPage() {
               })}
             </div>
             <img
-              src={`http://localhost:3000/products/${product.images[selectedImage]}`}
+              src={`${config.backendUrl}/products/${product.images[selectedImage]}`}
               alt={product.title}
               className="single_product_display"
             />

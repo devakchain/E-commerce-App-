@@ -4,6 +4,7 @@ import "../style/ProductsSidebar.css";
 import LinkWithIcon from "./LinkWithIcon";
 
 import useDate from "../hooks/useDate";
+import config from "../config.json";
 
 function ProductsSidebar() {
   const { data: categories, error } = useDate("/category");
@@ -20,7 +21,7 @@ function ProductsSidebar() {
                 key={category._id}
                 title={category.name}
                 link={`/products?category=${category.name}`}
-                emoji={`http://localhost:3000/category/${category.image}`}
+                emoji={`${config.backendUrl}/category/${category.image}`}
                 sidebar={true}
               />
             );

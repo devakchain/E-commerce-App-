@@ -9,6 +9,7 @@ import { userContext } from "../context/userContext";
 import { cartContext } from "../context/cartCotext";
 import { checkoutApi } from "../services/orderServices";
 import { toast } from "react-toastify";
+import config from "../config.json";
 
 function CartPage() {
   const user = useContext(userContext);
@@ -38,7 +39,7 @@ function CartPage() {
     <section className="align_center cart_page">
       <div className="align_center user_info">
         <img
-          src={`http://localhost:3000/profile/${user?.profilePic}`}
+          src={`${config.backendUrl}/profile/${user?.profilePic}`}
           alt="user profile"
         />
         <div>
