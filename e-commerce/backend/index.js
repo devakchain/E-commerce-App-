@@ -17,7 +17,7 @@ const orderRoutes = require("./routes/order");
 // middlewares
 app.use(
   cors({
-    origin: "https://your-site.netlify.app",
+    origin: "https://shopecoomerce.netlify.app",
     credentials: true,
   })
 );
