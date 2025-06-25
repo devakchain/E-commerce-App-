@@ -81,3 +81,53 @@
     min-width: 65%;
   }
 }
+
+@media (max-width: 600px) {
+  .signup_form_input {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .signup_textares_section {
+    grid-column: 1 / 2;
+  }
+
+  .input_textarea {
+    font-size: 15px;
+    height: 100px;
+  }
+
+  .image_label {
+    font-size: 11px;
+    padding: 8px 16px;
+  }
+
+  .image_preview {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .signup_form_input {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .signup_textares_section {
+    grid-column: 1 / 2;
+  }
+
+  .input_textarea {
+    font-size: 16px;
+  }
+
+  .image_preview {
+    width: 80px;
+    height: 80px;
+  }
+
+  .image_label {
+    font-size: 12px;
+  }
+}

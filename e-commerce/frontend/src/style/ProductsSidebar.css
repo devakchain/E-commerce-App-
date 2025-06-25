@@ -8,3 +8,23 @@
   font-size: 26px;
   margin-bottom: 10px;
 }
+
+@media (max-width: 600px) {
+  .products_sidebar {
+    padding: 8px 12px;
+  }
+
+  .products_sidebar h2 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .products_sidebar {
+    padding: 10px 16px;
+  }
+
+  .products_sidebar h2 {
+    font-size: 22px;
+  }
+}

@@ -21,3 +21,37 @@
   margin-left: 0;
   margin-right: 8px;
 }
+
+@media (max-width: 480px) {
+  .sidebar_link {
+    font-size: 18px;
+    padding: 8px 12px;
+  }
+
+  .sidebar_link img {
+    width: 24px;
+    margin-right: 6px;
+  }
+
+  .link_emoji {
+    width: 20px;
+    margin-left: 4px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .sidebar_link {
+    font-size: 19px;
+    padding: 9px 13px;
+  }
+
+  .sidebar_link img {
+    width: 26px;
+    margin-right: 6px;
+  }
+
+  .link_emoji {
+    width: 22px;
+    margin-left: 4px;
+  }
+}

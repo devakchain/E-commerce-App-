@@ -86,3 +86,42 @@
     min-width: 65%;
   }
 }
+
+@media (max-width: 480px) {
+  .form_page {
+    height: auto;
+    padding: 20px;
+  }
+
+  .auth_form {
+    min-width: 95%;
+    padding: 24px;
+    height: auto;
+  }
+
+  .auth_form h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .form_submit {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .form_page {
+    height: auto;
+    padding: 20px;
+  }
+
+  .auth_form {
+    min-width: 70%;
+    padding: 28px;
+    height: auto;
+  }
+
+  .auth_form h2 {
+    font-size: 32px;
+  }
+}

@@ -23,3 +23,39 @@
   width: fit-content;
   padding: 8px 18px;
 }
+
+@media (max-width: 600px) {
+  .quantity_input_button {
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+  }
+
+  .quantity_input_count {
+    margin: 0 20px;
+    font-size: 16px;
+  }
+
+  .add_cart {
+    padding: 6px 14px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .quantity_input_button {
+    width: 32px;
+    height: 32px;
+    font-size: 22px;
+  }
+
+  .quantity_input_count {
+    margin: 0 30px;
+    font-size: 17px;
+  }
+
+  .add_cart {
+    padding: 7px 16px;
+    font-size: 15px;
+  }
+}
